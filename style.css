@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body{
+    scroll-behavior: smooth;
+    background-color:#ffffff;
+}
+
+.space{
+    margin:30px 0;
+}
+
+
+.nav_img{
+    width: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_img2{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_items{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_items2{
+    width: 50%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+padding-right:0 !important;
+}
+
+.hero{
+padding-left: 0 !important;
+padding-right:0 !important;
+margin-right: 0 !important;
+    margin-left:0 !important;
+width: 100vw;
+position: relative;
+height:91vh;
+background-color:#000000;
+}
+
+#image-hero{
+    width: 200px;
+}
+
+.hero-title{
+    color: #ffffff;
+    
+    font-weight: 400;
+    letter-spacing: 7pt;
+   
+}
+
+.hero-h4{
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: 7pt;
+    
+}
+
+.hero-title img{
+    width: 100px;
+}
+
+.about{
+    padding-top: 20vh;;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    height:100vh;
+}
+
+.title, #proyectos h4, #contacto h4 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 10pt;
+    letter-spacing: 7pt;
+}
+
+.line {
+    margin: 20px auto;
+    width: 25px;
+    height: 1px;
+    background-color: #dcdcdc;
+}
+
+.about .main-text {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 10pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 40vw;
+    color: #898989;
+    line-height: 15pt;
+}
+
+.services {
+    margin-top: 100px;
+    margin-bottom: 220px;
+}
+.services h4 {
+    font-size: 10pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    margin-top: 20px;
+}
+
+.services .fa {
+    font-size: 22pt;
+    margin-top: 10px;
+}
+
+.services p {
+    margin-top: 10px;
+    font-size: 10pt;
+    font-weight: 400;
+    color: #898989;
+    letter-spacing: 1px;
+    line-height: 15pt;
+}
+
+.proyectos{
+    padding-top: 10vh;;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    height:100vh;
+}
+
+ form, .card-title, .card-text, .btn {
+    font-size: 10pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    margin-top: 20px;
+}
+
+body{
+    font-size: 10pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
