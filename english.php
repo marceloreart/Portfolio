@@ -17,8 +17,8 @@
             <nav class="navbar navbar-expand-lg  barra">
                 <div class="container-fluid .mx-0">
                     <div class="nav_img">
-                        <a class="navbar-brand" href="#">
-                            <!--<img src="/assets/image/Logo Marca Personal Masculino con Iniciales y Nombre Profesional Blanco y Negro.png" alt="" width="30" height="24" class="d-inline-block align-text-top">-->
+                        <a class="nav-link" href="#">
+                            Marcelo Rearte | PHP Developer & UX/UI Designer
                         </a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="https://github.com/marceloreart" target="_blank"> <img src="/assets/image/github.png" alt="github logo"></a>
                             <a class="nav-link" href="https://www.linkedin.com/in/marcelo-rearte-becerra-8a4043198/" target="_blank"><img src="/assets/image/linkedin.png" alt="linkedin logo"></a>
                             <a class="nav-link" href="https://www.behance.net/marcelorearte" target="_blank"> <img src="/assets/image/behance.png" alt="behance logo"></a>
-                            <a class="nav-link" href="/index.html">Español</a>
+                            <a class="nav-link" href="/index.php">Español</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                     <hr class="line">
                     <p class="main-text">
                         My name is Marcelo Rearte, I live in Buenos Aires, Argentina. I love to travel, do sports and drink coffee.
-                                                Regarding my professional profile, I am active and curious, so I am always looking to learn something new. Passionate about design and digital development.</p>
+                        Regarding my professional profile, I am active and curious, so I am always looking to learn something new. Passionate about design and digital development.</p>
                     <!-- Services Section-->
                     <div class="services" id="services">
                         <div class="container">
@@ -250,7 +250,7 @@
                             ©️ 2022 Marcelo Rearte </a>
                     </div>
 
- 
+
 
 
 

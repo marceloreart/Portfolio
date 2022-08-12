@@ -4,6 +4,8 @@
     box-sizing: border-box;
   }
 
+  
+
 body{
     scroll-behavior: smooth;
     background-color:#ffffff;
@@ -142,6 +144,11 @@ background-color:#000000;
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
     height:100vh;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
 }
 
  form, .card-title, .card-text, .btn {

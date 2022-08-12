@@ -27,8 +27,11 @@
         return $this->conexion->lastInsertId();
     }
     public function consultar($sql)
-    { # select 
+    {
+        # select 
         #ejecuta la consulta y nos devuelve la info de la base
+        /*$query = "SELECT * FROM Productos WHERE id = " . $id;*/
+
         $sentencia = $this->conexion->prepare($sql);
         $sentencia->execute();
         #retorna todos los registros de la consulta sql
