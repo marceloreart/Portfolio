@@ -15,7 +15,7 @@
 
     #creo una instancia(objeto) de la clase de conexion
     $conexion = new conexion();
-    $sql = "INSERT INTO `proyectos` (`nombre`, `imagen`, `descripcion`) VALUES (NULL, '$nombre_proyecto' , '$imagen', '$descripcion')";
+    $sql = "INSERT INTO `proyectos` (`nombre`, `imagen`, `descripcion`) VALUES ('$nombre_proyecto' , '$imagen', '$descripcion')";
     $id_proyecto = $conexion->ejecutar($sql);
     #para que no intente borrar muchas veces
     header("Location:galeria.php");
