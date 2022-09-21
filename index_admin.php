@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 <?php $conexion = new conexion(); # es un objeto de tipo conexion,
-$proyectos = $conexion->consultar("SELECT * FROM `proyectos`"); ?>
+$proyectos = $conexion->consultar("SELECT * FROM `proyectos`");
+?>
 
 <div class="p-5 bg-light">
     <div class="container">
